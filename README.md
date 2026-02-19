@@ -49,9 +49,13 @@ brain_stroke_detection/
 |-- app.py
 🚀 How to Run the Project
 ✔ https://github.com/hemachandrika04/brain_stroke_detection.git
+
 ✔ cd brain_stroke_detection/backend
+
 ✔ pip install -r requirements.txt
+
 ✔ python app.py
+
 ✔ http://127.0.0.1:5000/
 ## 📊 Output
 
