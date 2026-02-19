@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Brain Stroke Detection System</title>
+
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<main class="layout">
+
+    <!-- Header -->
+    <header class="header">
+        <h1>🧠 Brain Stroke Detection System</h1>
+        <p>AI-Powered Clinical Neuroimaging Analysis</p>
+    </header>
+
+    <!-- Diagnostic Card -->
+    <section class="diagnostic-card glass">
+
+        <form id="uploadForm">
+
+            <!-- Upload Panel -->
+            <label class="upload-panel">
+                <input type="file" id="imageInput" accept="image/*" hidden required>
+
+                <div class="upload-text">
+                    <span class="icon">☁️</span>
+                    <strong>Upload Brain MRI / CT Scan</strong>
+                    <small>JPG • PNG • MRI • CT</small>
+                </div>
+            </label>
+
+            <button type="submit" class="analyze-btn">
+                🔍 Analyse CT Image
+            </button>
+
+        </form>
+
+        <!-- Preview -->
+        <img id="previewImage" class="scan-preview" hidden>
+
+        <!-- Metadata -->
+        <div id="imageDetails" class="metadata"></div>
+
+        <!-- Result -->
+        <div id="output" class="diagnosis"></div>
+
+    </section>
+
+    <footer class="footer">
+        AI Clinical Decision Support System
+    </footer>
+
+</main>
+
+<script src="{{ url_for('static', filename='js/script.js') }}"></script>
+</body>
+</html>
