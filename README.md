@@ -80,15 +80,9 @@ The prediction result is displayed clearly on the interface along with the uploa
 - Add confidence score display
 - Add multiple disease classification
 
----
 
-## ⚠ Disclaimer
-This project is for educational and research purposes only. It should not be used as a substitute for professional medical diagnosis.
 
----
 
-## 👩‍💻 Author
-Hema Chandrika  
-GitHub: https://github.com/hemachandrika04
+
 
 
