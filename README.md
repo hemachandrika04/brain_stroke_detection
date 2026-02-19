@@ -31,28 +31,32 @@ To assist in early detection of brain stroke using image-based classification th
 ---
 
 ## 📁 Project Structure
+
+
+
 brain_stroke_detection/
 │
 ├── backend/
-│ ├── app.py
-│ ├── brain_stroke_detection_model.h5
-│ ├── requirements.txt
+│   ├── app.py
+│   ├── brain_stroke_detection_model.h5
+│   ├── requirements.txt
 │
 ├── static/
-│ ├── css/
-│ ├── js/
-│ ├── uploads/
+│   ├── css/
+│   ├── js/
+│   ├── uploads/
 │
 ├── templates/
-│ ├── index.html
+│   ├── index.html
 │
 └── app.py
+
 🚀 How to Run the Project
-https://github.com/hemachandrika04/brain_stroke_detection.git
-cd brain_stroke_detection/backend
-pip install -r requirements.txt
-python app.py
-http://127.0.0.1:5000/
+-https://github.com/hemachandrika04/brain_stroke_detection.git
+-cd brain_stroke_detection/backend
+-pip install -r requirements.txt
+-python app.py
+-http://127.0.0.1:5000/
 ## 📊 Output
 
 After uploading a brain MRI image:
